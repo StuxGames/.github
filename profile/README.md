@@ -4,7 +4,7 @@
 
 ## Welcome to the Stux.Games Official GitHub!
 
-### *Leaders in Game Development.*
+### *Made to be played.*
 
 We make games and the open-source backend tools behind them, from multiplayer titles to server lists and game server managers.
 

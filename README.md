@@ -4,7 +4,7 @@
 
 # .github
 
-*Leaders in Game Development.*
+*Made to be played.*
 
 The central repository for the Stux.Games GitHub organization configuration and profile settings.
 

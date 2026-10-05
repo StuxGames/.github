@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-05
+### Changed
+- New Stux.Games slogan, "Made to be played.", in `profile/README.md` and `README.md`, replacing "Leaders in Game Development."
+
 ## [1.0.0] - 2026-10-05
 ### Added
 - Initial Stux.Games org profile (`profile/README.md`) with the welcome, mission, contact and "Our Activity" sections and the shared Stux.Group footer, matching the other Stux.Group brand `.github` repos.
