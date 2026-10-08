@@ -18,15 +18,22 @@ We make games and the open-source backend tools behind them, from multiplayer ti
 
 Stux.Games exists to build fun games and to share the infrastructure behind them, so other developers can run multiplayer games too.
 
-### Our Projects
+### Our Games
+
+| Game | What it is |
+|---|---|
+| 🐦&nbsp;[Flappie Race](https://github.com/StuxGames/FlappieRace) | An open-source multiplayer game made with Godot, with an in-game server browser and official game servers. |
+| 🏓&nbsp;[MultiPong](https://github.com/StuxGames/MultiPong) | Multiplayer Pong, written in JavaScript with its own client and server. |
+
+### Open-Source Game Tools
+
+Built for Flappie Race, and generic enough to back any multiplayer game.
 
 | Project | What it is |
 |---|---|
-| 🐦 [FlappieRace](https://github.com/StuxGames/FlappieRace) | A multiplayer Flappy-style racing game. |
-| 🖥️ [FlappieRaceBackend](https://github.com/StuxGames/FlappieRaceBackend) | Backend server code for Flappie Race: the server list and the game server manager. |
-| 📋 [GameServerList](https://github.com/StuxGames/GameServerList) | A generic game server list API for in-game server browsers, written in Rust with Axum. |
-| 🐳 [GameServerManager](https://github.com/StuxGames/GameServerManager) | A generic game server manager API that runs each server instance in Docker, written in Python with FastAPI. |
-| 🏓 [MultiPong](https://github.com/StuxGames/MultiPong) | A multiplayer take on Pong. |
+| 📋&nbsp;[GameServerList](https://github.com/StuxGames/GameServerList) | A game server list API for in-game server browsers, written in Rust with Axum. Servers connect over WebSockets and update their state in real time. |
+| 🐳&nbsp;[GameServerManager](https://github.com/StuxGames/GameServerManager) | A game server manager API, written in Python with FastAPI, that runs each server instance in Docker so game clients can request a server. |
+| 🧩&nbsp;[FlappieRaceBackend](https://github.com/StuxGames/FlappieRaceBackend) | Flappie Race's backend: the server list and server manager, run together with Docker Compose behind an HTTPS proxy. |
 
 ### Get Involved
 
