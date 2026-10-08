@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-10-08
+### Added
+- Bluesky and LinkedIn badges (`bsky.app/profile/stux.games`, `linkedin.com/company/stuxgames`) in the "Connect with Us!" section, alongside the existing GitHub followers badge, matching the other Stux.Group brand profiles.
+
 ## [1.0.1] - 2026-10-05
 ### Changed
 - New Stux.Games slogan, "Made to be played.", in `profile/README.md` and `README.md`, replacing "Leaders in Game Development."
