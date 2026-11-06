@@ -4,10 +4,10 @@ Thanks for your interest in contributing to this project.
 
 ## Development Workflow
 
-1. Create a feature branch off `main`.
+1. Work on `test`, or a feature branch off it (see Branches below).
 2. Make focused, well-described commits.
 3. Add your changes to a new release entry at the top of `CHANGELOG.md` (see Versioning below).
-4. Open a pull request against `main`.
+4. Open a pull request into `test`; `test` reaches `main` through its own pull request.
 
 ## Profile Conventions
 
@@ -15,6 +15,12 @@ Thanks for your interest in contributing to this project.
 - Use full names ("Stux.Games Status", "Stux.Games Gamepage"), not bare words like "Status" or "Gamepage".
 - Only link public repositories. Private ones (such as `errorpages`) stay off the profile.
 - Logos and icons use the light/dark `<picture>` form, from `global.media.stux.games` and `global.media.stux.group`.
+
+## Branches
+
+- Work on `test`, or on a feature branch off it. Never push to `main`
+- Changes reach `main` only through a pull request from `test` into `main`, which is reviewed and merged by Leo
+- Merging into `main` updates the org profile at github.com/StuxGames; release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
 
 ## Versioning
 
