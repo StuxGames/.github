@@ -69,7 +69,7 @@ For legal, privacy, or copyright matters, contact [legal@stux.games](mailto:lega
 ### Our Activity
 
 <div align="center">
-  <img width="512" src="https://raw.githubusercontent.com/StuxGames/.github/metrics/stats.svg">
+  <img width="512" src="https://raw.githubusercontent.com/StuxGames/.github/metrics/stats.svg" alt="Stux.Games GitHub activity">
 </div>
 
 ---
