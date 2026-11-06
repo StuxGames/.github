@@ -50,7 +50,7 @@ Built for Flappie Race, and generic enough to back any multiplayer game.
 | 👾&nbsp;[Stux.Games Gamepage](https://github.com/StuxGames/gamepage) | The page a game shows until its own is built: a handheld console reading GAME PAGE NOT FOUND. ([preview](https://gamepage.stux.games)) |
 | ⏳&nbsp;[Stux.Games Soonpage](https://github.com/StuxGames/soonpage) | A "coming soon" landing page. ([preview](https://soonpage.stux.games)) |
 | 🛠️&nbsp;[Stux.Games Maintenancepage](https://github.com/StuxGames/maintenancepage) | A maintenance holding page. ([preview](https://maintenancepage.stux.games)) |
-| ↪️&nbsp;[Stux.Games GitHub Pages Redirect](https://github.com/StuxGames/stuxgames.github.io) | Redirects stuxgames.github.io to Stux.Games. |
+| ↪️&nbsp;[Stux.Games GitHub Pages Redirect](https://github.com/StuxGames/stuxgames.github.io) | Sends stuxgames.github.io to this GitHub organisation. |
 
 ### Get Involved
 
