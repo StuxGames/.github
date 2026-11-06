@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.games/logo.png" height="100" alt="Stux.Games Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.games/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.games/logo-dark.png"><img src="https://global.media.stux.games/logo-dark.png" height="100" alt="Stux.Games Logo"></picture>
 </p>
 
 ## Welcome to the Stux.Games Official GitHub!
@@ -18,6 +18,14 @@ We make games and the open-source backend tools behind them, from multiplayer ti
 
 Stux.Games exists to build fun games and to share the infrastructure behind them, so other developers can run multiplayer games too.
 
+### Our Sites
+
+| Site | What it is |
+|---|---|
+| 🎮&nbsp;[Stux.Games](https://stux.games) | Our main website. |
+| 🕹️&nbsp;[Stux.Games Games](https://games.stux.games) | Every Stux.Games game and open-source server tool in one place, with live status. ([repo](https://github.com/StuxGames/Games)) |
+| 💓&nbsp;[Stux.Games Status](https://status.stux.games) | Live status and uptime history of Stux.Games' sites, checked every 5 minutes. ([repo](https://github.com/StuxGames/Status)) |
+
 ### Our Games
 
 | Game | What it is |
@@ -35,10 +43,23 @@ Built for Flappie Race, and generic enough to back any multiplayer game.
 | 🐳&nbsp;[GameServerManager](https://github.com/StuxGames/GameServerManager) | A game server manager API, written in Python with FastAPI, that runs each server instance in Docker so game clients can request a server. |
 | 🧩&nbsp;[FlappieRaceBackend](https://github.com/StuxGames/FlappieRaceBackend) | Flappie Race's backend: the server list and server manager, run together with Docker Compose behind an HTTPS proxy. |
 
+### Templates
+
+| Template | What it is |
+|---|---|
+| 👾&nbsp;[Stux.Games Gamepage](https://github.com/StuxGames/gamepage) | The page a game shows until its own is built: a handheld console reading GAME PAGE NOT FOUND. ([preview](https://gamepage.stux.games)) |
+| ⏳&nbsp;[Stux.Games Soonpage](https://github.com/StuxGames/soonpage) | A "coming soon" landing page. ([preview](https://soonpage.stux.games)) |
+| 🛠️&nbsp;[Stux.Games Maintenancepage](https://github.com/StuxGames/maintenancepage) | A maintenance holding page. ([preview](https://maintenancepage.stux.games)) |
+| ↪️&nbsp;[Stux.Games GitHub Pages Redirect](https://github.com/StuxGames/stuxgames.github.io) | Sends stuxgames.github.io to this GitHub organisation. |
+
 ### Get Involved
 
 1. **Explore our projects**: check out our repositories to see what we're building.
 2. **Follow us on GitHub**: stay updated on our latest releases and updates.
+
+### Service Status
+
+Check whether Stux.Games' sites are up, with 90 days of history, at [status.stux.games](https://status.stux.games).
 
 ### Contact Us
 
@@ -55,5 +76,5 @@ For legal, privacy, or copyright matters, contact [legal@stux.games](mailto:lega
 
 Thank you for visiting our profile!
 
-*Built & Maintained by <img src="https://global.media.stux.games/icon.png" height="14" alt="Stux.Games" valign="middle"> [Stux.Games](https://github.com/StuxGames), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
-Stux.Games is a part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
+*Built & Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.games/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.games/icon-dark.png"><img src="https://global.media.stux.games/icon-dark.png" height="14" alt="Stux.Games" valign="middle"></picture> [Stux.Games](https://github.com/StuxGames), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
+Stux.Games is a part of the <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/icon-dark.png"><img src="https://global.media.stux.group/icon-dark.png" height="14" alt="Stux.Group" valign="middle"></picture> Stux.Group brand of businesses.*
