@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.games/logo.png" alt="Stux.Games" width="360">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.games/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.games/logo-dark.png"><img src="https://global.media.stux.games/logo-dark.png" height="100" alt="Stux.Games Logo"></picture>
 </p>
 
 # .github
@@ -16,6 +16,7 @@ This repository contains the organization-wide configuration files for the Stux.
 
 - **Profile** — the public org profile shown at [github.com/StuxGames](https://github.com/StuxGames) (`profile/README.md`)
 - **Community Files** — contributing guidelines and other org-wide defaults
+- **Metrics** — `.github/workflows/generateMetrics.yml` renders the profile's "Our Activity" stats onto the `metrics` branch daily
 
 ## How It Works
 
@@ -42,5 +43,5 @@ Copyright © 2026 Stux Group Ltd. All rights reserved.
 
 ---
 
-*Built & Maintained by <img src="https://global.media.stux.games/icon.png" height="14" alt="Stux.Games" valign="middle"> [Stux.Games](https://github.com/StuxGames), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
-Stux.Games is a part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
+*Built & Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.games/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.games/icon-dark.png"><img src="https://global.media.stux.games/icon-dark.png" height="14" alt="Stux.Games" valign="middle"></picture> [Stux.Games](https://github.com/StuxGames), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
+Stux.Games is a part of the <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/icon-dark.png"><img src="https://global.media.stux.group/icon-dark.png" height="14" alt="Stux.Group" valign="middle"></picture> Stux.Group brand of businesses.*

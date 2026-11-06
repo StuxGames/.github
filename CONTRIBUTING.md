@@ -6,12 +6,15 @@ Thanks for your interest in contributing to this project.
 
 1. Create a feature branch off `main`.
 2. Make focused, well-described commits.
-3. Add your changes under the `[Unreleased]` section of `CHANGELOG.md`.
+3. Add your changes to a new release entry at the top of `CHANGELOG.md` (see Versioning below).
 4. Open a pull request against `main`.
 
-## Code Style
+## Profile Conventions
 
-Project-specific conventions will be documented here as they're established.
+- Keep `profile/README.md` in step with the org: list every public game, tool, site and template, and drop retired ones. Check against `gh repo list StuxGames` and [games.stux.games](https://games.stux.games).
+- Use full names ("Stux.Games Status", "Stux.Games Gamepage"), not bare words like "Status" or "Gamepage".
+- Only link public repositories. Private ones (such as `errorpages`) stay off the profile.
+- Logos and icons use the light/dark `<picture>` form, from `global.media.stux.games` and `global.media.stux.group`.
 
 ## Versioning
 
