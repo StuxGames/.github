@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.06-3
+
+### Added
+
+- CI (`.github/workflows/ci.yml`), on pushes to `main` and `test` and on pull requests: `tests/version.sh`, a check that `profile/README.md` exists, and markdownlint. Pull requests from
+  `test` into `main` now need it to pass, as CONTRIBUTING's Branches section says
+- `.markdownlint.json`, the same Markdown rules the Stux.Games template repos use (plus MD026 off, for the profile's "Welcome…!" headings)
+
+### Fixed
+
+- The profile's activity image has alt text ("Stux.Games GitHub activity")
+
+## v26.11.06-2
+
+### Added
+
+- A `test` branch: work happens on `test` (or a branch off it), and reaches `main` only through a pull request from
+  `test` that Leo reviews and merges. Release commits and tags are made on `test`. CONTRIBUTING has a Branches section
+  and the README's Versioning section says so
+
+### Changed
+
+- `commit.sh` and `commit.bat` suggest `git push origin test --tags`
+
 ## v26.11.06-1
 
 ### Fixed

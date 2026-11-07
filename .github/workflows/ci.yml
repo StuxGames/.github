@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main, test]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Version
+        run: bash tests/version.sh
+
+      - name: Profile exists
+        run: test -s profile/README.md
+
+      - name: Lint Markdown
+        run: npx --yes markdownlint-cli@0.41 "**/*.md" --ignore node_modules
