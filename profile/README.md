@@ -24,7 +24,7 @@ Stux.Games exists to build fun games and to share the infrastructure behind them
 |---|---|
 | 🎮&nbsp;[Stux.Games](https://stux.games) | Our main website. |
 | 🕹️&nbsp;[Stux.Games Games](https://games.stux.games) | Every Stux.Games game and open-source server tool in one place, with live status. ([repo](https://github.com/StuxGames/Games)) |
-| 💓&nbsp;[Stux.Games Status](https://status.stux.games) | Live status and uptime history of Stux.Games' sites, checked every 5 minutes. ([repo](https://github.com/StuxGames/Status)) |
+| 💓&nbsp;[Stux.Games Status](https://status.stux.games) | Live status and uptime history of Stux.Games' sites, checked regularly. ([repo](https://github.com/StuxGames/Status)) |
 
 ### Our Games
 
