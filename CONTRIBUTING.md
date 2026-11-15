@@ -16,11 +16,12 @@ Thanks for your interest in contributing to this project.
 - Only link public repositories. Private ones (such as `errorpages`) stay off the profile.
 - Logos and icons use the light/dark `<picture>` form, from `global.media.stux.games` and `global.media.stux.group`.
 
-## Branches
+## Branches and going live
 
-- Work on `test`, or on a feature branch off it. Never push to `main`
-- Changes reach `main` only through a pull request from `test` into `main`, which needs CI to pass and is reviewed and merged by Leo
-- Merging into `main` updates the org profile at github.com/StuxGames; release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
+- Work and releases happen on `test`, or on a feature branch merged back into it. The commit scripts refuse to run on `staging` or `main`; push a release with `git push origin test --tags`
+- `staging` is pre-production. It changes only through a merged pull request from `test` (`gh pr create --base staging --head test`). There's no staging deployment: a release waits there, checked, before going live
+- `main` is live. It changes only through a merged pull request from `staging` (`gh pr create --base main --head staging`). Merging into `main` updates the org profile at github.com/StuxGames
+- Nothing is pushed straight to `staging` or `main`. Pull requests need CI to pass, and Leo merges them
 
 ## Versioning
 
