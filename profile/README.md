@@ -30,6 +30,7 @@ Stux.Games exists to build fun games and to share the infrastructure behind them
 
 | Game | What it is |
 |---|---|
+| 🐱&nbsp;[Purrxel Flow](https://purrxel-flow.stux.games) | A cosy snake-cat puzzle game: send hungry cats round the track to eat pixel-art pictures one colour at a time. Free in your browser. |
 | 🐦&nbsp;[Flappie Race](https://github.com/StuxGames/FlappieRace) | An open-source multiplayer game made with Godot, with an in-game server browser and official game servers. |
 | 🏓&nbsp;[MultiPong](https://github.com/StuxGames/MultiPong) | Multiplayer Pong, written in JavaScript with its own client and server. |
 
